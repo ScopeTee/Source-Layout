@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,100&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <!-- <a href="#"> -->
+            <!-- </a> -->
+            <div class="navbar">
+                <img src="./icons8-menu-50.svg" alt="Menu" width="25px" onclick="toggleMenu()" class="menu-icon">
+                <ul class="nav-list">
+                    <a href="">
+                        <li>First Link</li>
+                    </a>
+                    <a href="">
+                        <li>Second Link</li>
+                    </a>
+                    <a href="">
+                        <li>Third Link</li>
+                    </a>
+                    <a href="">
+                        <li>Fourth Link</li>
+                    </a>
+                </ul>    
+            </div>   
+            <h2>Source</h2>
+        </div>
+        <nav>
+            <h2>Source</h2>
+            <ul>
+                <a href="">
+                    <li>First Link</li>
+                </a>
+                <a href="">
+                    <li>Second Link</li>
+                </a>
+                <a href="">
+                    <li>Third Link</li>
+                </a>
+                <a href="">
+                    <li>Fourth Link</li>
+                </a>
+            </ul>
+            <input type="button" value="Button" class="nav-btn">
+
+        </nav>
+    </header>
+    <section>
+        <div class="hero">
+            <div class="hero-text">
+                <p class="sp-1">TAGLINE</p>
+                <h1>Source helps creators do more of what they love</h1>
+                <div>
+                    <input type="text" name="Search" class="search" placeholder="Placeholder">
+                    <input type="button" value="Button" class="btn">
+                </div>
+                <div class="p1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem autem molestias laboriosam. Fugit, officia eum.</p>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="./Blank LG.png" alt="" width="100%">
+            </div>
+        </div>
+        <section class="feat">
+            <div class="feature">
+                <img src="./icons8-flowers-66.png" alt="">
+                <div class="feature-1">
+                    <h5>Feature One</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, beatae!</p>
+                    <a href="#"> First Link <img src="./icons8-chevron-right-48.png" alt="" width="10px"></a>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="./icons8-sushi-66.png" alt="">
+                <div class="feature-1">
+                    <h5>Feature One</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, beatae!</p>
+                    <a href="#"> Second Link <img src="./icons8-chevron-right-48.png" alt="" width="10px"></a>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="./icons8-temple-66.png" alt="">
+                <div class="feature-1">
+                    <h5>Feature One</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, beatae!</p>
+                    <a href="#"> Third Link <img src="./icons8-chevron-right-48.png" alt="" width="10px"></a>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="./icons8-warrior-66.png" alt="">
+                <div class="feature-1">
+                    <h5>Feature One</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, beatae!</p>
+                    <a href="#"> Fourth Link <img src="./icons8-chevron-right-48.png" alt="" width="10px"></a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="hero-2">
+                <h2 class="title-2">Collecting information about the problem</h2>
+                <div class="p-3">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo iste eveniet ab velit incidunt et.</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer></footer>
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-list").classList.toggle("navbar--open")
+        }
+    </script>
+</body>
+</html>
